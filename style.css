@@ -14,19 +14,18 @@ body {
   margin: 0px 30px;
 
 }
+
 .nav-container {
   display: flex;
   max-width: 100%;
-  padding: 25px 15px;
+  padding: 25px 50px;
   align-items: center;
   justify-content: space-between;
 }
-.nav-left{
+
+.nav-left {
   display: flex;
   align-items: center;
-}
-.image {
-  margin: 0px 50px 0px 0px;
 }
 
 
@@ -49,7 +48,8 @@ a {
 .button-container {
   display: flex;
 }
-.signin-btn{
+
+.signin-btn {
   background-color: white;
   color: #0c1825;
   border: 1px #0c1825 solid;
@@ -60,7 +60,8 @@ a {
   font-weight: 600;
   font-size: 16.5px;
 }
-.signup-btn{
+
+.signup-btn {
   color: white;
   background: #0c1825;
   border: none;
@@ -71,22 +72,40 @@ a {
   font-weight: 600;
   font-size: 16.5px;
 }
-.button2:hover {
-  background-color: blue;
-  transition: .8s;
+
+.signup-btn:hover {
+  background-color: rgb(48, 48, 189);
+  transition: background-color .8s;
 }
-.header{
+
+.signin-btn:hover {
+  color:  rgb(48, 48, 189);
+  border-color: rgb(48, 48, 189);
+  transition: border .8s, color .8s;
+}
+
+.text-null {
   display: flex;
+  max-width: 100%;
+  align-items: center;
+  margin: 40px 30px 30px 30px;
+  padding-right: 6rem;
+  padding-left: 20px;
 }
+
+.image-right {
+  min-width: 520px;
+}
+
 .text-container {
-  margin: 70px 50px 0px 50px;
-  padding: 20px;
+  padding: 0px 30px 0px;
+  margin-right: 80px;
 }
 
 .text h1 {
-  font-size: 3.8rem;
+  font-size: 65px;
+  line-height: 82.42px;
   color: #0c1825;
-  font-weight: 700;
 }
 
 .text p {
@@ -94,11 +113,12 @@ a {
   color: #0c1825;
   line-height: 25px;
 }
+
 .btn-container {
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
-.btn-container .button {
+.btn-container .signup-button {
   font-size: 16.5px;
   font-weight: 600;
   padding: 15px 22px;
@@ -109,27 +129,278 @@ a {
   border: none;
 }
 
-
-.btn-container .button:hover {
-  background-color: blue;
-  transition: .8s;
+.app-link {
+  margin-top: 40px;
 }
 
-.btn-container .btn {
-  margin-top: 50px;
+
+.btn-container .signup-button:hover {
+  background-color: rgb(48, 48, 189);
+  transition: background-color .8s;
 }
 
-.btn .btn1 {
+.btn-container .ios-app {
   background: white;
   border: #b7b9bb solid 1px;
   border-radius: 10px;
   padding: 16px;
 }
 
-.btn .btn2 {
+.btn-container .android-app {
   background: white;
   border: #b7b9bb solid 1px;
   border-radius: 10px;
   padding: 16px;
   margin-left: 8px;
+}
+
+.security {
+  display: flex;
+  margin: 10rem 14rem 10rem 20rem;
+  /* padding-right: 10rem; */
+
+}
+
+.security-text {
+  max-width: 100%;
+}
+
+.security .security-text h1 {
+  font-size: 2rem;
+  color: #0c1825;
+}
+
+.security-text p {
+  margin: 10px 0px 25px;
+  line-height: 25px;
+}
+
+.security-text a {
+  color: rgb(48, 48, 189);
+
+}
+
+.customer-text {
+  max-width: 390px;
+  margin: 100px 10px 30px 30px;
+  padding: 20px;
+}
+
+.customer-text h1 {
+  font-size: 38px;
+  color: #0c1825;
+  margin-bottom: 28px;
+}
+
+.customer-text p {
+  font: 19px;
+  line-height: 25px;
+
+}
+
+.savings-button {
+  color: white;
+  background: #0c1825;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16.5px;
+  margin-top: 30px;
+}
+
+.savings-button:hover {
+  background-color: rgb(48, 48, 189);
+  transition: background-color .8s;
+}
+
+.customer {
+  display: flex;
+  max-width: 9000px;
+  padding: 50px;
+}
+
+.box-container {
+  margin: 30px 30px 30px 0px;
+}
+
+.box-null {
+  display: flex;
+  padding: 30px;
+  margin: 0px 40px 0px 0px;
+}
+
+.box {
+  background-color: #f9fbff;
+  width: 23rem;
+  height: 21rem;
+  padding: 30px;
+  border-radius: 25px;
+}
+
+.box h2,
+p {
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+
+.box h4 {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.box h4 i {
+  max-width: 40px;
+  margin-right: 15px;
+}
+
+.piggybank-img {
+  max-width: 70px;
+  margin-bottom: 35px;
+}
+ 
+.investment {
+  display: flex;
+  margin: 0px 100px;
+  align-items: center;
+  
+}
+.investment-img {
+  min-width: 500px;
+}
+.investment-text  {
+  padding: 0px 100px 30px 30px;
+}
+.investment-text .percent {
+  background:#f7f0ff;
+  color: #7913e5;
+  font-size: 18px;
+  font-weight:600 ;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  border-radius: 18px;
+  margin: 0px 0px 50px;
+  padding-top: 10px ;
+}
+.investment-text h5 {
+  font-size: 50px;
+  margin-bottom: 30px;
+  padding-right: 20px;
+}
+.investment-text h6 {
+  font-size: 18px;
+}
+.investment-text p {
+padding-right: 70px;
+font-size: 18px;
+line-height: 30px;
+margin-bottom: 40px;
+}
+.investment-text a {
+  color: #7913e5;
+  font-size: 18px;
+}
+.saver-container {
+  display: flex;
+  margin-top: 8rem;
+}
+.saver {
+  background: #0d60d8;
+
+}
+.saver-null {
+  padding: 90px 230px 40px 90px;
+}
+.saver h2 {
+  font-size: 55px;
+  color: white;
+  margin-bottom: 30px;
+}
+.saver p {
+color: white;
+line-height: 25px;
+margin-bottom: 60px;
+font-size: 18px;
+}
+.saver a {
+  color: white;
+  font-size: 20px;
+ display: flex;
+ align-items: center;
+  
+}
+.saver i {
+  margin-right: 10px;
+}
+.testimony-container {
+  display: flex;
+  margin: 60px ;
+  align-items: center;
+}
+.testimony{
+  min-width: 600px;
+}
+.testimony-text {
+  padding: 30px 70px 30px 0px;
+}
+.testimony-text h2 {
+  font-size: 28px;
+}
+.featured {
+  background-color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px 60px 0px;
+}
+.featured h2 {
+  font-size: 35px;
+}
+.featured-link {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+}
+.featured-link a {
+  max-width: 180px;
+  margin-left: 25px;
+}
+.container {
+  margin: 40px;
+  font-size: 14px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+}
+.row a {
+  line-height: 30px;
+}
+.product, .company, .legal {
+  display: flex;
+  flex-direction: column;
+}
+.product p, .company p, .legal p {
+  font-weight: 600;
+}
+.connect {
+  text-align: right;
+}
+.socials  {
+  display: flex;
+  justify-content: end;
+}
+.socials a {
+  max-width: 30px;
+}
+.about {
+  text-align: center;
+  padding: 10px 200px;
+}
+.about-text2 {
+  color: #0d60d8;
 }
