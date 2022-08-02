@@ -396,6 +396,7 @@ font-size: 18px;
 }
 .socials a {
   max-width: 30px;
+  margin-left:10px ;
 }
 .about {
   text-align: center;
