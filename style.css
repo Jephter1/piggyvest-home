@@ -570,14 +570,15 @@ nav {
   max-height: fit-content;
   visibility: hidden;
   overflow: hidden;
+  flex: none;
   align-items: center;
   justify-content: center;
 }
 
 .menu-wrap .menu > div {
   background: #fff;
-  margin-top: 90px;
-  max-width: 100%;
+  margin-top: 50px;
+  width: 100vw;
   height: 100vw;
   display: flex;
   flex: none;
@@ -598,7 +599,6 @@ nav {
 .btn-group  li  {
   display: flex;
   flex-direction: column;
-  max-width: 100%;
 }
 .btn-group  li a  {
   margin-top: 20px;
