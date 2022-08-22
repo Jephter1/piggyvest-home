@@ -7,6 +7,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background: #ffffff;
+  max-width: 100%;
 }
 
 
@@ -600,7 +601,7 @@ nav {
   display: flex;
   flex-direction: column;
 }
-.btn-group  li a  {
+.btn-group  li a  { 
   margin-top: 20px;
 }
 .btn-group  li a .signin-btn{
@@ -668,7 +669,7 @@ li {
 
 .image-right {
   margin-top:60px;
-  max-width: 380px;
+  max-width: 450px;
 }
 
 .text h1 {
@@ -939,7 +940,9 @@ p {
 .saver .meets {
   margin-right: 10px;
 }
-
+.saver-img {
+  max-width: 100%;
+}
 .testimony-container {
   margin: 60px 10px;
   text-align: center;
